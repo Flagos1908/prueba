@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Probar Docker') {
             steps {
-                bat 'docker --version'
+                sh 'docker --version'
             }
         }
     }
